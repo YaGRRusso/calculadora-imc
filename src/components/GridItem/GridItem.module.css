@@ -1,0 +1,32 @@
+.gridCard {
+   flex: 1;
+   height: 100%;
+   color: #fff;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 20px;
+}
+
+.gridIcon {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   background-color: rgba(0, 0, 0, 0.1);
+}
+
+.gridTitle {
+   margin: 10px;
+   font-size: 20px;
+   font-weight: bold;
+   text-transform: capitalize;
+}
+
+.gridInfo{
+   font-size: 13px;
+}
